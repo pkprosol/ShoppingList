@@ -1,0 +1,7 @@
+.openItem {
+	text-decoration: none;
+}
+
+.closedItem {
+	text-decoration: line-through;
+}
