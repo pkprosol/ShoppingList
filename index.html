@@ -3,21 +3,32 @@
 <html>
 	<head>
 		<title>Shopping List</title>
+		<link rel="stylesheet" type="text/css" href="reset.css"/>
 		<link rel="stylesheet" type="text/css" href="main.css"/>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script type="text/javascript" src="main.js"></script>
 	</head>
 
 	<body>
-		<h1>Add Item:</h1> 
+		<h1>Shopping List App</h1> 
+		<h2>Add Item</h2>
 		<form name="groceryList">
 			<input type="text" name="userInput"/>
-			<button type="button" name="submit">Add this item</button>
+			<button type="button" name="submit">Add</button>
 		</form>
 
-		<h2>Shopping List (Click to Remove Item):</h2>
+		<br>
+		<h2>Current List</h2>
+		<p id="instructions">(Click to Remove Item)</p>
+		<br>
 
-		<div class="list"></div>
+		<div class="list">
+			<ul>
+
+			</ul>	
+		</div>
+
+
 	</body>
 
 </html>
