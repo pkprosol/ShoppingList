@@ -1,12 +1,11 @@
 body {
 	margin: auto;
-	background-color: lightgrey;
-	width: 350px;
 	background-image:url('groceries.jpg');
 }
 
 #mainContent {
 	margin-top:30px;
+	width: 350px;
 	background-color: lightgrey;
 }
 
